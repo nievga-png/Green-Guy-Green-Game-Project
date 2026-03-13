@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!-- page title -->
+  <title>Green Guy's Green Games</title>
+  <style>
+    html, body 
+    {
+      margin: 0;
+      padding: 0;
+
+    }
+
+
+
+    /* Main page style and green side borders */
+    body
+    {
+              font-family: Arial, sans-serif;
+    
+      border-left: 12vw solid green;
+      border-right: 12vw solid green;
+      box-sizing: border-box;
+      min-height: 100vh;
+      padding-top: 20px;
+    }
+
+    .container 
+    {
+      max-width:900px;
+      margin:0 auto;
+      padding:0 1rem;
+    }
+
+    header 
+    {
+    background: rgb(235, 255, 235); 
+    padding: 10px 0px;
+    border:1px solid rgb(140, 200, 140);
+    }
+
+        /* logo stuff */
+        .logo
+    {
+  text-align: center;
+    }
+
+    .logo img
+    {
+  width: 600px;
+  height: auto;
+    }
+
+    .box 
+    {
+    background: rgb(235, 255, 235); 
+    border:1px solid rgb(140, 200, 140);
+      padding: 10px 15px;
+      margin-top:20px;
+    }
+
+    .box h2, p
+    {
+        text-align: center;
+    }
+
+    /* part that holds featured games */
+    .games
+    {
+      margin-top: 20px;
+    }
+    .games-items
+    {
+      text-align: center;
+    }
+    .game
+    {
+      display: inline-block;
+      width: 200px;
+      margin: 10px;
+      padding: 10px;
+      border: 1px solid green;
+      text-align: center;
+    }
+    .game-title
+    {
+      border-bottom: 1px solid rgb(140, 200, 140);
+      margin-bottom: 8px;
+      padding-bottom: 4px;
+    }
+.game img
+{
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  display: block;
+}
+    .rating
+    {
+      color: rgb(34, 92, 0);
+      font-size: 16pt;
+      text-align: left;
+    }
+
+    .pages-container
+    {
+      max-width: 900px;
+      margin: 0 auto 0px;
+      display: flex;
+      align-items: flex-start;
+    }
+
+    .page-box
+    {
+      background: rgb(235, 255, 235);
+      border:1px solid rgb(140, 200, 140);
+      cursor: pointer;
+      text-align: center;
+      min-width: 80px;
+    }
+
+
+    a 
+    {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    a:visited 
+    {
+      color: inherit;
+    }
+
+    a:focus, a:active 
+    {
+      outline: none;
+    }
+
+
+    /* footer stuff like contact */
+    footer
+    {
+    background: rgb(235, 255, 235);
+    border:1px solid rgb(140, 200, 140);
+      margin-top: 60px;
+      padding: 15px;
+    }
+
+    .footer-stuff
+    {
+      max-width: 900px;
+      display: flex;
+    }
+
+    .footer-text
+    {
+      font-size: 14px;
+    }
+
+  </style>
+</head>
+<body>
+    <!--  switching pages -->
+  <div class="pages-container">
+    <a class="page-box" href="homepage.html">Home</a>
+    <a class="page-box" href="games.html">Games</a>
+    <a class="page-box" href="about.html">About</a>
+    <a class="page-box" href="contact.html">Contact</a>
+  </div>
+
+  <div class="container">
+  <header>
+    <div class="logo"><img src="logo.png" alt="GreenLogo"></div>
+  </header>
+</div>
+
+  <!-- Featured games section -->
+  <div class="container">
+    <div class="box">
+      <h2>Games</h2>
+      <p>Want "The Green Games"? Then here's the page for you! Look for any game you recognize, more are added constantly! Want a game to be added to the list? Reccomend one!. </p>
+    </div>
+
+    <div class="games">
+
+      <div class="games-items">
+
+  <div class="game">
+  <div class="game-title">Doom 1993</div>
+  <img src="Doom_cover_art.jpg" alt="placeholder">
+  <div class="rating">★ ★ ☆ ☆ ☆</div>
+  <p>"Some green armor and goop appears, but demons are mostly red. This concerns us very much."</p>
+</div>
+
+<div class="game">
+  <div class="game-title">Frogger: He's Back! (PC)</div>
+  <img src="Froggercover.png" alt="placeholder">
+  <div class="rating">★ ★ ★ ★ ☆</div>
+  <p>"An absolutely green masterpiece! From the Frogger, to the grass. You'll have a green time here!"</p>
+</div>
+
+<div class="game">
+  <div class="game-title">Green Game</div>
+  <img src="greengame.png" alt="placeholder">
+  <div class="rating">★ ★ ★ ★ ★</div>
+  <p>"It's the title, A GREEN GAME! An absolute must-worship in my green books! Been asleep all this time!"</p>
+</div>
+
+<div class="game">
+  <div class="game-title">Crew Us App Store</div>
+  <img src="crewus.png" alt="placeholder">
+  <div class="rating">★ ★ ☆ ☆ ☆</div>
+  <p>"The green crewmate exists, which is nice. But, the players are free to choose other colors, unnecessary."</p>
+</div>
+
+<div class="game">
+  <div class="game-title">Soccer Shootout 3DS</div>
+  <img src="soccershootout.png" alt="placeholder">
+  <div class="rating">★ ★ ★ ☆ ☆</div>
+  <p>"This one had potential, there is so much green everywhere! But, no green main character. Atleast the game ruled!"</p>
+</div>
+
+<div class="game">
+  <div class="game-title">Cory In The House DS</div>
+  <img src="coryinthehouse.png" alt="placeholder">
+  <div class="rating">☆ ☆ ☆ ☆ ☆</div>
+  <p>"This game made me cry. The story, the characters, the gameplay. All spectacular, but no green characters 0/10."</p>
+</div>
+
+<div class="game">
+  <div class="game-title">Frog Fighters</div>
+  <img src="frogfighters.jpg" alt="placeholder">
+  <div class="rating">★ ★ ★ ★ ☆</div>
+  <p>"This game is extremely gorgeous in terms of presentation, and the greenery is appreciated. Unfortunately the gameplay is horrid."</p>
+</div>
+
+<div class="game">
+  <div class="game-title">Destroy All Humans</div>
+  <img src="Destroy_All_Humans_remake_cover_art.jpg" alt="placeholder">
+  <div class="rating"><s>★ ★ ★ ★ ★</s> -1000</div>
+  <p>"The game is funny! So nice, unfortunately the alien is NOT green, missed opportunity! Game could have been good.. But alas, Its over, Im sad."</p>
+</div>
+
+<div class="game">
+  <div class="game-title">Frogkle Math</div>
+  <img src="frogklemath.png" alt="placeholder">
+  <div class="rating">★ ★ ★ ★ ★ + 🐸</div>
+  <p>"This one greatly interested me... was very surprised, anyways we love frogs here! But, I found the game too hard, crying is expected. 🔴"</p>
+</div>
+
+
+      </div>
+    </div>
+  </div>
+<!-- footer html-->
+<footer>
+  <div class="footer-stuff">
+
+    <div class="footer-text">
+      <div><strong>Contact Us👽</strong></div>
+      <div>📞 883-297-GREN</div>
+      <div>✉️ greenguygreengameslongemailforgreenpeople@green.com</div>
+    </div>
+
+  </div>
+</footer>
+
+
+</body>
+</html>

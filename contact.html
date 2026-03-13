@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!-- page title -->
+  <title>Green Guy's Green Games</title>
+  <style>
+    html, body 
+    {
+      margin: 0;
+      padding: 0;
+
+    }
+
+    /* Main page style and green side borders */
+    body
+    {
+      font-family: Arial, sans-serif;
+
+      border-left: 12vw solid green;
+      border-right: 12vw solid green;
+      box-sizing: border-box;
+      min-height: 100vh;
+      padding-top: 20px;
+    }
+
+    .container 
+    {
+      max-width:900px;
+      margin:0 auto;
+      padding:0 1rem;
+    }
+
+
+    header 
+    {
+    background: rgb(235, 255, 235);
+    padding: 10px 0px;
+    border: 1px solid rgb(140, 200, 140);
+    }
+
+        /* logo stuff */
+        .logo
+    {
+  text-align: center;
+    }
+
+    .logo img
+    {
+  width: 600px;
+  height: auto;
+    }
+
+    .box 
+    {
+      background: rgb(235, 255, 235);
+     border: 1px solid rgb(140, 200, 140);
+      padding: 10px 15px;
+      margin-top:20px;
+    }
+
+    .box h2, p
+    {
+        text-align: center;
+    }
+
+    .pages-container
+    {
+      max-width: 900px;
+      margin: 0 auto 0px;
+      display: flex;
+      align-items: flex-start;
+    }
+
+    .page-box
+    {
+      background: rgb(235, 255, 235);
+      border:1px solid rgb(140, 200, 140);
+      cursor: pointer;
+      text-align: center;
+      min-width: 80px;
+    }
+
+
+    a 
+    {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    a:visited 
+    {
+      color: inherit;
+    }
+
+    a:focus, a:active 
+    {
+      outline: none;
+    }
+
+
+    /* footer stuff like contact */
+    footer
+    {
+      background: rgb(235, 255, 235);
+      border-top: 1px solid rgb(140, 200, 140);
+      margin-top: 60px;
+      padding: 15px;
+    }
+
+    .footer-stuff
+    {
+      max-width: 900px;
+      display: flex;
+    }
+
+    .footer-text
+    {
+      font-size: 14px;
+    }
+
+  </style>
+</head>
+<body>
+    <!--  switching pages -->
+  <div class="pages-container">
+    <a class="page-box" href="homepage.html">Home</a>
+    <a class="page-box" href="games.html">Games</a>
+    <a class="page-box" href="about.html">About</a>
+    <a class="page-box" href="contact.html">Contact</a>
+  </div>
+
+  <div class="container">
+  <header>
+    <div class="logo"><img src="logo.png" alt="GreenLogo"></div>
+  </header>
+</div>
+
+  <!-- Contact page intro -->
+  <div class="container">
+    <div class="box">
+      <h2>Contact Us!</h2>
+      <p>Are you the greenest dude ever?! Do you have a sick green game reccomendation?! Or do you just want to complain? Well, you've found the place for all of that sorta thing!</p>
+    </div>
+
+    <div class="box">
+  <!-- embedded contact form -->
+  <iframe 
+    src="https://docs.google.com/forms/d/e/1FAIpQLScpTL1EX3syjvGLggekll3A8ckuXTzhZ2ZAXwkOCtiaQl6mGw/viewform?embedded=true"
+    width="100%"
+    height="900"
+    frameborder="0">
+  </iframe>
+</div>
+
+
+      <p><em>WARNING</em>, This contact form might not get activity for some while as we have been busy lately! Something about a red button or something. Please expect updates in the future!</p>
+     <img src="GottaGo!.png" alt="We Gotta Get Outta Here!!" width="200" height="200">
+
+      </div>
+    </div>
+  </div>
+
+<!-- footer html-->
+<footer>
+  <div class="footer-stuff">
+
+    <div class="footer-text">
+      <div><strong>Contact Us👽</strong></div>
+      <div>📞 883-297-GREN</div>
+      <div>✉️ greenguygreengameslongemailforgreenpeople@green.com</div>
+    </div>
+
+  </div>
+</footer>
+
+
+</body>
+</html>
